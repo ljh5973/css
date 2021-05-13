@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{margin:0;} /* 디자인 시작전에 모든화면에 적용할 디자인을 *로 표현 */
+        b{color:seagreen;}
+
+        ul,li{list-style:none;}
+        div p{color:red;}
+        div>p{color:rosybrown;}
+        section>p{color:sandybrown;}
+        section>ul>li>p{color: sienna;}
+        
+    </style>
+</head>
+<body>
+
+    <section>
+        <p>자식선택자</p>
+        <p>자식선택자</p>
+
+        <ul>
+            <li><p>자식선택자</p></li>
+            <li>자식선택자</li>
+        </ul>
+    </section>
+
+    <b>모든 b태그의 색은 seagreen</b><br/>
+    <b>모든 b태그의 색은 seagreen</b><br/>
+    <b>모든 b태그의 색은 seagreen</b>
+    
+    <ul>
+
+        <li>다중선택자</li>
+        <li>다중선택자</li>
+    </ul>
+
+    <div>
+        d
+        <p>하위선택자</p>
+        <p>하위선택자</p>
+        <ul>
+            <li><p>하위선택자</p></li>
+            <li><p>하위선택자</p></li>
+            
+
+        </ul>
+    </div>
+</body>
+</html>

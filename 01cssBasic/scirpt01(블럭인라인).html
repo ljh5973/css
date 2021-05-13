@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- 
+    주석처리 ctrl + /
+    ctrl + shift + a 범위주석
+
+    블럭요소
+    1. 블럭요소는 화면에서 블럭의 크기를 갖는다. 자동 줄바꿈
+    2. 블럭요소 안에는 블럭요소와 인라인 요소를 가질 수 있습니다.
+     -->
+
+     <h1>블럭</h1>
+     <p></p>
+     <div></div>
+     <ul>
+    </ul>
+    <!-- alt + 좌클릭 중복 선택 입력 -->
+   <li></li>
+   <li></li>
+   <li></li>
+   <section>섹션
+       <div>
+         섹션  안의블럭
+       </div>
+   </section>
+   <header>헤더</header>
+   <aside>어사이드</aside>
+   <article>아티클</article>
+   <fotter>푸터</fotter>
+   <hr/>
+
+   <!-- 
+    인라인요소
+    1. 인라인은 줄바꿈이 없습니다.(한줄출력)
+    2. 인라인요소에는 인라인만 들어갈 수 있습니다.
+    3. 인라인 안에는 블럭이 들어가면 문법적으로 오류
+    -->
+    <span>인라인</span><br/>
+    <span>인라인</span>
+    <img alt="인라인">
+    <a>인라인</a>
+    
+    <!-- 틀린문법 -->
+    <a><div>??</div></a>
+    <!-- 맞는문법 -->
+    <a><span>asdf</span></a>
+  
+  
+    <!-- 틀린문법 -->
+    <b>
+        <p>pp</p>
+    </b>
+    <!-- 맞는문법 -->
+    <p>
+        <b>bb</b>
+    </p>
+    <!-- 틀린문법 -->
+    <ul>
+        <a><li>asd</li></a>
+
+    </ul>
+    <!-- 맞는문법 -->
+    <ul>
+        <li><a>asd</a></li>
+
+    </ul>
+</body>
+</html>
