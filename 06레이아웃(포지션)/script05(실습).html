@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        * {margin: 0; padding: 0;}
+        ul li {list-style: none;}
+
+        body {height: 1500px; background-image: url("images/bg.png");}
+
+        header {position: fixed; width: 100%; left: 0; top: 0; z-index: 50; background-image: url("images/bg.png");}
+
+        .logo {margin: 20px auto; text-align: center;}
+
+        header > .list{
+            background-color: black;
+            text-align: center;
+        }
+
+        header > .list > li:hover { background-color: #777;}
+        header > .list > li {
+            display: inline-block;
+        }
+
+        header > .list > li > a {
+            text-decoration: none;
+            color: white;
+            display: block;
+            padding: 20px;
+        }
+        
+        section {margin-top: 195px; position: absolute; z-index: 30; width: 100%;}
+
+        .content1 {background-color: white; overflow: hidden;}
+
+        .content1 a { text-decoration: none; color: black;}
+
+        .content1 > div[class*="item"] {
+            width: 25%;
+            float: left;
+            text-align: center;
+
+            padding: 30px;
+            box-sizing: border-box;
+        }
+
+        .content2 {
+            text-align: center;
+        }
+
+        aside {
+            position: fixed;
+            margin-top: 35%;
+            width: 100%;
+
+            z-index: 48;
+        }
+
+        .side{
+            position: relative;
+        }
+
+        .a-list1{
+            position: absolute;
+            left: 10%;
+        } 
+        .a-list2 {
+            position: absolute;
+
+            top: 8em;
+            left: 10%;
+        }
+
+        .a-list3{
+            position: absolute;
+
+            right: 10%;
+        } 
+        .a-list4 {
+            position: absolute;
+
+            top: 8em;
+            right: 10%;
+        }
+
+    </style>
+
+</head>
+<body>
+    
+    <header>
+        <div class="logo">
+            <img src="images/logo.jpg">
+        </div>
+        <div style="width: 50px; height: 50px; background-color: aqua; text-align: center; line-height: 50px; position: absolute; right: 0px; top: 0px;">
+            <a href="#" style="display: block; text-decoration: none; color: red;">top</a>
+        </div>
+        <ul class="list">
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <div class="content1">
+            <div class="item01">
+                <a href="#">
+                    <img src="images/item01.png">
+                    <div>
+                        iPhone
+                    </div>
+                </a>
+            </div>
+            <div class="item02">
+                <a href="#"><img src="images/item02.png">
+                    <div>
+                        iPod
+                    </div>
+                </a>
+            </div>
+            <div class="item03">
+                <a href="#"><img src="images/item03.png">
+                    <div>
+                        iPad
+                    </div>
+                </a>
+            </div>
+            <div class="item04">
+                <a href="#"><img src="images/item04.png">
+                    <div>
+                        iMac
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="content2">
+            <img src="images/ipad.jpg">
+        </div>
+    </section>
+
+    <aside>
+        <div class="side">
+            <div class="a-list1">
+                <a href="#"><img src="images/side01.png"></a>
+            </div>
+            <div class="a-list2">
+                <a href="#"><img src="images/side02.png"></a>
+            </div>
+            <div class="a-list3">
+                <a href="#"><img src="images/side03.png"></a>
+            </div>
+            <div class="a-list4">
+                <a href="#"><img src="images/side04.png"></a>
+            </div>
+        </div>
+    </aside>
+
+</body>
+</html>
