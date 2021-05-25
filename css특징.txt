@@ -19,3 +19,5 @@
 8.media쿼리	max-width:768 	768픽셀 이하에서 동작하는 문법
 		min-width:768	768픽셀 이상에서 동작하는 문법
 9.transition, animation
+
++부트스트랩
