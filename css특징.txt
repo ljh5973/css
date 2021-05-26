@@ -14,10 +14,11 @@
 	sticky : z축으로 올리는데 높이 값이 맞으면 fixed형태로 사용됨 (사용하기 까다로음)
 	
 	position 법칙 : absolute를 쓰면 부모영역에 relative를 넣어야한다. 안쓰면 다른데로 날아감
-		       position이 많이 올라가면 z index값을 줘서 결정을해줌
+		       position이 많이 올라가면 z index값을 줘서 순서 결정을 해줌
 
 8.media쿼리	max-width:768 	768픽셀 이하에서 동작하는 문법
 		min-width:768	768픽셀 이상에서 동작하는 문법
 9.transition, animation
+
 
 +부트스트랩
